@@ -5,17 +5,19 @@
   --lightgreen: #0091a0;
   --color-dark: var(--deepgreen);
   --color-light: var(--lightgreen);
-  /* 
-  --font-family: 'Arial, sans-serif';
-  --background-color: #f9f9f9;
-  --text-color: #333333;
-  --header-font-size: 2rem;
-  --body-font-size: 1rem;
-  --spacing-unit: 1rem; */
+  --font-family: "Arial, sans-serif";
 }
 
 /* Global Styles
 ------------------------------ */
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: var(--color-dark);
+  line-height: 1.6;
+}
 
 /* Header
 ------------------------------- */
