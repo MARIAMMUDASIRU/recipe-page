@@ -4,9 +4,11 @@
   --deepgreen: #366473;
   --lightgreen: #0091a0;
   --bluegreen: #addbd9;
+  --white: #ffffff;
   --color-dark: var(--deepgreen);
   --color-light: var(--lightgreen);
   --color-primary: var(--bluegreen);
+  --color-white: var(--white);
 
   --font-family: "Arial, sans-serif";
 }
@@ -21,7 +23,7 @@ body {
 .card-container {
   max-width: 500px;
   margin: 40px auto;
-  background-color: #ffffff;
+  background-color: var(--color-white);
   border-radius: 15px;
   padding: 20px;
 }
@@ -48,7 +50,7 @@ img {
 /* Ingredients
 ---------------------------------- */
 .ingredients-instructions {
-  border-bottom: 1px solid #addbd9;
+  border-bottom: 1px solid var(--color-primary);
 }
 
 /* Instructions
@@ -66,8 +68,10 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5px 5px;
-  border-bottom: 1px solid #addbd9;
+  padding: 5px;
+  border-bottom: 1px solid var(--color-primary);
+}
+.nutrition {
   max-width: 400px;
 }
 h2 {
