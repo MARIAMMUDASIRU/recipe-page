@@ -71,6 +71,10 @@ li {
   padding: 5px;
   border-bottom: 1px solid var(--color-primary);
 }
+
+.nutrition-table {
+  margin: 0 auto;
+}
 .nutrition {
   max-width: 400px;
 }
